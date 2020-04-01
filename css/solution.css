@@ -1,0 +1,232 @@
+
+@media (min-width: 320px){
+.content-box.col-sm-6.col-md-6.overlay-text.solution-network-testing{
+       min-width: 100%;
+    padding: 0.625rem;
+    height: 850px;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-deployment-experience{
+
+    min-width: 100%;
+    padding: 0.625rem;
+    height: 785px;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-softwate-development{
+
+    min-width: 100%;
+    padding: 0.625rem;
+    height: 760px;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-machine-learning{
+    min-width: 100%;
+    padding: 0.625rem;
+    height: 775px;
+}
+
+
+
+}
+@media (min-width: 375px){
+.content-box.col-sm-6.col-md-6.overlay-text.solution-network-testing{
+
+    min-width: 100%;
+    padding: 0.625rem;
+    height: 730px;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-deployment-experience{
+
+    min-width: 100%;
+    padding: 0.625rem;
+    height: 675px;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-softwate-development{
+
+    min-width: 100%;
+    padding: 0.625rem;
+    height: 655px;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-machine-learning{
+
+    min-width: 100%;
+    padding: 0.625rem;
+    height: 660px;
+}
+
+
+
+}
+@media (min-width: 425px){
+.content-box.col-sm-6.col-md-6.overlay-text.solution-network-testing{
+
+    min-width: 100%;
+    padding: 0.625rem;
+    height: 630px;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-deployment-experience{
+
+    min-width: 100%;
+    padding: 0.625rem;
+    height: 615px;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-softwate-development{
+
+    min-width: 100%;
+    padding: 0.625rem;
+    height: 595px;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-machine-learning{
+
+    min-width: 100%;
+    padding: 0.625rem;
+    height: 580px;
+}
+
+
+
+}
+
+@media (min-width: 768px){
+.content-box.col-sm-6.col-md-6.overlay-text.solution-network-testing {
+
+    min-width: 100%;
+    padding: 0.625rem;
+    height: 410px;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-deployment-experience{
+
+    min-width: 100%;
+    padding: 0.625rem;
+    height: 415px;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-softwate-development{
+
+    min-width: 100%;
+    padding: 0.625rem;
+    height: 390px;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-machine-learning{
+
+    min-width: 100%;
+    padding: 0.625rem;
+    height: 430px;
+}
+
+
+
+}
+
+@media (min-width: 1024px){
+.content-box.col-sm-6.col-md-6.overlay-text.solution-network-testing {
+    min-width: 70%;
+    padding: 0.625rem;
+    height: 530px;
+    float: right;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-deployment-experience{
+
+    min-width: 70%;
+    padding: 0.625rem;
+    height: 510px;
+    float: left;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-softwate-development{
+
+    min-width: 70%;
+    padding: 0.625rem;
+    float: right;
+    height: 500px;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-machine-learning{
+
+    min-width: 70%;
+    padding: 0.625rem;
+    height: 520px;
+    float: left;
+}
+
+
+
+}
+@media (min-width: 1025px){
+.content-box.col-sm-6.col-md-6.overlay-text.solution-network-testing {
+    min-width: 60%;
+    padding: 0.625rem;
+    height: 515px;
+    float: right;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-deployment-experience{
+
+    min-width: 60%;
+    padding: 0.625rem;
+    height: 500px;
+    float: left;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-softwate-development{
+
+    min-width: 60%;
+    padding: 0.625rem;
+    height: 475px;
+    float: right;
+}
+.content-box.col-sm-6.col-md-6.overlay-text.solution-machine-learning{
+
+    min-width: 60%;
+    padding: 0.625rem;
+    height: 500px;
+    float: left;
+}
+
+
+
+}
+
+
+
+.infoBlock.rsAbsoluteEl {
+    max-width: 50rem;
+    height: auto;
+}
+
+.infoBlock.infoBlockLeftBlack.rsABlock {
+    max-width: 50rem;
+    width: 50rem;
+    height: auto;
+}
+
+#main {
+    padding: 0;
+}
+
+.content-box.col-sm-6.col-md-6.overlay-text {
+    float: right;
+}
+
+.overlay-text {
+    height: 650px;
+}
+
+@media (max-width: 767px) {
+    .overlay-text {
+        height: 812px;
+        float: center;
+    }
+
+    .content-box.col-sm-6.col-md-6.overlay-text {
+        float: left;
+        min-width: 100%;
+        padding: 0.625rem;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1224px) {
+    .overlay-text {
+        height: 450px;
+        float: center;
+    }
+
+    .content-box.col-sm-6.col-md-6.overlay-text {
+        float: left;
+        min-width: 100%;
+        padding: 0.625rem;
+    }
+}

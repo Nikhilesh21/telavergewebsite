@@ -1,0 +1,118 @@
+.diameter-title{
+    font-family: verdana;
+    text-align:center;
+    background: -webkit-linear-gradient(#f3e7e9, #e3eeff);  
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+}
+.diameter-description{
+    font-family: verdana;
+    text-align:center
+}
+.border-right {
+    border-right: 0.0625rem solid #dee2e6 !important;
+  }
+
+  .text-white {
+    color: #fff !important;
+  }
+
+  .ptb-100 {
+    padding: 6.25rem 0;
+  }
+
+  .background-img {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+
+  .title-box1 {
+    border-bottom-width: 0.0625rem;
+    margin-bottom: 2.5rem;
+    position: relative;
+  }
+
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container:before,
+  .container:after {
+    content: " ";
+    display: table;
+  }
+
+  .border-right {
+    border-right: 0.0625rem solid #dee2e6 !important;
+  }
+
+  .highlight-text .number {
+    font-size: 6em;
+    color: #ed1c24;
+    line-height: 90%;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .background-img:before {
+    position: absolute;
+    content: '';
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80));
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .single__service5 {
+    background-color: #ffffff70;
+  }
+
+  .single__service5:hover {
+    background-color: #fff;
+  }
+
+  .single__testimonial__2 h5 {
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 1.5625rem;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    padding: 0rem 1.25rem;
+    text-align: justify;
+  }
+
+
+  @media only screen and (max-width: 767px) {
+    .single__testimonial__2 h5:after {
+      background: none;
+    }
+
+    .single__testimonial__2 h5:before {
+      background: none;
+    }
+
+    .border-right {
+      border-right: none !important;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .header .header-wrapper .primary .navbar .btn-navbar .icon-bar {
+      background: #c10808;
+      box-shadow: none;
+      border-radius: 0;
+      height: 3px;
+      margin: 0;
+      width: 22px;
+    }
+  }
+  .single__service5__content {
+    padding: 1.25rem 0 0 0;
+}

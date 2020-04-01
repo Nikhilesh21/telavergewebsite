@@ -1,0 +1,231 @@
+.des-artcl {
+    --max-lines: 6;
+    --lh: 1.4rem;
+    max-height: calc(var(--lh) * var(--max-lines));
+    overflow: hidden;
+    padding: 10px;
+  }
+
+  .head-artcl {
+    --max-lines: 3;
+    --lh: 1.4rem;
+    max-height: calc(var(--lh) * var(--max-lines));
+    overflow: hidden;
+    height: 50px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .article-module {
+      min-width: 177px !important;
+      height: 470px;
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+      transition: all 0.3s linear 0s;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .article-container {
+      max-width: 400px;
+      min-width: 178px !important;
+      margin: 0 auto;
+    }
+
+    /* :root {
+      --main-color: #039BE5;
+      --circle-color: #eee;
+      --size-to: 150px;
+    }
+
+    .circle__el {
+      width: 0;
+      height: 0;
+      background: transparent;
+      border: 3px solid var(--circle-color);
+      border-radius: 50%;
+      animation: go 2.5s ease-out infinite;
+    }
+
+    .circle-2 {
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 20px;
+      left: -402px;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      z-index: 10000;
+    } */
+  }
+
+
+  .article-content {
+    position: absolute;
+    width: 100%;
+    height: 178px;
+    bottom: 100px;
+    background: #fff;
+    padding: 10px;
+    transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  }
+
+  :root {
+    --main-color: #039BE5;
+    --circle-color: #eee;
+    --size-to: 150px;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--main-color);
+  }
+
+  .circle-2 {
+    overflow: hidden;
+    width: 10%;
+    height: 30%;
+    position: absolute;
+    top: 40%;
+    left: 10.2%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  .banner-set .banner:after {
+    border-top: 1px solid #e1e1e1;
+    content: "";
+    display: block;
+    left: 0;
+    margin: 17px 0 0 0;
+    position: absolute;
+    right: 0;
+  }
+
+  .banners-2 {
+    width: 32.50%;
+  }
+
+  .circle__el {
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 5px solid var(--circle-color);
+    border-radius: 50%;
+    animation: go 2.5s ease-out infinite;
+  }
+
+  @keyframes go {
+    100% {
+      width: var(--size-to);
+      height: var(--size-to);
+      box-shadow: 0 0 15px var(--circle-color);
+      opacity: 0;
+    }
+  }
+
+  .testimonial-quote {
+    background-color: #fff;
+    opacity: 0.7;
+  }
+
+  .testimonial-student p:nth-child(2) {
+    color: #eee;
+  }
+
+  .news {
+    float: left;
+    background-color: #a50839;
+    width: 199px;
+    text-align: center;
+    color: white;
+    height: 26px;
+    padding-top: 2px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .breadcrumb-box {
+      display: none;
+    }
+
+    :root {
+      --main-color: #039BE5;
+      --circle-color: #eee;
+      --size-to: 120px;
+    }
+
+    .circle__el {
+      width: 0;
+      height: 0;
+      background: transparent;
+      border: 3px solid var(--circle-color);
+      border-radius: 50%;
+      animation: go 2.5s ease-out infinite;
+    }
+
+    .circle-2 {
+      overflow: hidden;
+      width: 11%;
+      height: 27%;
+      position: absolute;
+      top: 41.4%;
+      left: 5.4%;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+
+    .article-content {
+      position: absolute;
+      width: 100%;
+      height: 178px;
+      bottom: 100px;
+      background: #fff;
+      padding: 10px;
+      transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+    }
+
+    #exTab1 .tab-content {
+      color: white;
+      background-color: #428bca;
+      padding: 5px 15px;
+    }
+
+    #exTab2 h3 {
+      color: white;
+      background-color: #428bca;
+      padding: 5px 15px;
+    }
+
+    #exTab1 .nav-pills>li>a {
+      border-radius: 0;
+    }
+
+    #exTab3 .nav-pills>li>a {
+      border-radius: 4px 4px 0 0;
+    }
+
+    #exTab3 .tab-content {
+      color: white;
+      background-color: #428bca;
+      padding: 5px 15px;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+  a.banner-2 {
+    width: 100% !important;
+    border: 1px solid #eee !important;
+}
+  }
+
+  @media (max-width: 991px){
+.banner-set .banner .title {
+    font-size: 1rem !important;
+}
+}
